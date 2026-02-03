@@ -32,8 +32,8 @@ let handler = async (m, { conn, usedPrefix }) => {
 > ${usedPrefix}facebook 
 
 *+ MENU INFO*
->${usedPrefix}ping
-${usedPrefix}menu
+> ${usedPrefix}ping
+> ${usedPrefix}menu
 
 *+ MENU OWNER*
 > ${usedPrefix}update 
@@ -49,8 +49,8 @@ ${usedPrefix}menu
 > ${usedPrefix}link
 > ${usedPrefix}promote
 > ${usedPrefix}demote
-${usedPrefix}open
-${usedPrefix}close
+> ${usedPrefix}open
+> ${usedPrefix}close
 `.trim(),
 
     title: '',
