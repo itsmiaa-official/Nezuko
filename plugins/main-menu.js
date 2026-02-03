@@ -25,10 +25,15 @@ let handler = async (m, { conn, usedPrefix }) => {
 👤 Usuario: ${taguser}
 
 *+ MENU DOWNLOADER*
+> ${usedPrefix}play
 > ${usedPrefix}ig
 > ${usedPrefix}instagram 
 > ${usedPrefix}fb
 > ${usedPrefix}facebook 
+
+*+ MENU INFO*
+>${usedPrefix}ping
+${usedPrefix}menu
 
 *+ MENU OWNER*
 > ${usedPrefix}update 
@@ -42,6 +47,10 @@ let handler = async (m, { conn, usedPrefix }) => {
 *+ MENU GRUPO*
 > ${usedPrefix}kick
 > ${usedPrefix}link
+> ${usedPrefix}promote
+> ${usedPrefix}demote
+${usedPrefix}open
+${usedPrefix}close
 `.trim(),
 
     title: '',
