@@ -18,6 +18,9 @@ global.botname = '𝙽𝚊𝚐𝚒𝙱𝚘𝚝-𝙰𝚒'
 global.author = 'Brayan330'
 global.sticker = 'sticker created by NagiBot'
 
+global.banner = ''
+global.icono = ''
+
 global.sessions = 'Sessions'
 global.jadi = 'JadiBots'
 global.moneda = 'dolares'
