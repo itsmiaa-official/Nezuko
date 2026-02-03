@@ -18,7 +18,7 @@ global.botname = '𝙽𝚊𝚐𝚒𝙱𝚘𝚝-𝙰𝚒'
 global.author = '@its.chinitaaa_'
 global.sticker = 'sticker created by NagiBot'
 
-global.banner = 'https://files.catbox.moe/625wyi.jpg'
+global.banner = 'https://files.catbox.moe/7mo2x5.jpg'
 global.icono = ''
 
 global.sessions = 'Sessions'
