@@ -54,7 +54,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 
     title: '',
     subtitle: '',
-    footer: `© ${botname} · menu`,
+    footer: `© ${botname} · ${author}`,
 
     interactiveButtons: [
       {
