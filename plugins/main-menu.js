@@ -47,6 +47,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 *+ MENU GRUPO*
 > ${usedPrefix}kick
 > ${usedPrefix}link
+> ${usedPrefix}tag
 > ${usedPrefix}promote
 > ${usedPrefix}demote
 > ${usedPrefix}open
