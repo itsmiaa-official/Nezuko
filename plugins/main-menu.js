@@ -2,7 +2,6 @@ let handler = async (m, { conn, usedPrefix }) => {
 
   const who = m.sender
   const taguser = `@${who.split('@')[0]}`
-  const botname = 'Nagi Bot'
 
   const file = 'https://raw.githubusercontent.com/El-brayan502/img/upload/uploads/0af99e-1770105309161.jpg'
 
