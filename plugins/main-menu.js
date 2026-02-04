@@ -20,6 +20,8 @@ let handler = async (m, { conn, usedPrefix }) => {
     businessOwnerJid: who || '0@s.whatsapp.net',
 
     caption: `
+hola ${saludo}
+
 👤 Usuario: ${taguser}
 🌷 Versión: ${vs}
 
