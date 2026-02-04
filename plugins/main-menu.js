@@ -60,7 +60,7 @@ let handler = async (m, { conn, usedPrefix }) => {
       {
         name: 'cta_url',
         buttonParamsJson: JSON.stringify({
-          display_text: 'channel',
+          display_text: 'Instagram',
           url: 'https://whatsapp.com/channel/0029Vb6BDQc0lwgsDN1GJ31i'
         })
       }
