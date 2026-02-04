@@ -17,7 +17,7 @@ handler.all = async function (m, { conn }) {
         isForwarded: true,
         forwardedNewsletterMessageInfo: { newsletterJid: idcanal, serverMessageId: 100, newsletterName: nombrecanal },
         externalAdReply: {
-          title: '🎯 Nagi Updates',
+          title: '${botname}',
           thumbnailUrl: 'https://chat.whatsapp.com/KAhwtBdTOYlFsbsU8rwo79',
           thumbnail: await (await fetch(global.iconorcanal)).buffer(),
           mediaType: 1,
@@ -26,7 +26,7 @@ handler.all = async function (m, { conn }) {
       }
     }
 
-    global.done = '⚽'
+    global.done = '✅'
     global.error = '⚠️'
     global.rwait = '⏳'
 
