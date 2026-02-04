@@ -66,10 +66,10 @@ let handler = async (m, { conn, usedPrefix }) => {
 ׄꤥ ╾ׅ╼ㅤׄㅤꤪꤨ \`ᴛᴏᴏʟs\` ㅤꤪꤨ  ╾ׅ╼ㅤׄꤥㅤׅ
 > ✰ Comandos de utilidades... 
 
-> ${usedPrefix}s
-> ${usedPrefix}sticker
-> ${usedPrefix}toimg
-> ${usedPrefix}inspect
+> ִׁ𑁯֪݃🍄᷼ᩚᮭ ๋ ${usedPrefix}s
+> ִׁ𑁯֪݃🍄᷼ᩚᮭ ๋ ${usedPrefix}sticker
+> ִׁ𑁯֪݃🍄᷼ᩚᮭ ๋ ${usedPrefix}toimg
+> ִׁ𑁯֪݃🍄᷼ᩚᮭ ๋ ${usedPrefix}inspect
 
 `.trim(),
 
