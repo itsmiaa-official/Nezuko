@@ -39,10 +39,6 @@ let handler = async (m, { conn, usedPrefix }) => {
 > ${usedPrefix}cleartmp 
 > ${usedPrefix}detectar
 
-*+ MENU MAKER*
-> ${usedPrefix}s
-> ${usedPrefix}sticker
-
 *+ MENU GRUPO*
 > ${usedPrefix}kick
 > ${usedPrefix}link
@@ -51,6 +47,13 @@ let handler = async (m, { conn, usedPrefix }) => {
 > ${usedPrefix}demote
 > ${usedPrefix}open
 > ${usedPrefix}close
+
+*+ MENU TOOLS*
+> ${usedPrefix}s
+> ${usedPrefix}sticker
+> ${usedPrefix}toimg
+> ${usedPrefix}inspect
+
 `.trim(),
 
     title: '',
