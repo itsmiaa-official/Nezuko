@@ -31,7 +31,7 @@ global.prefix = /^[./!#?]/
 
 global.channel = 'https://whatsapp.com/channel/0029Vb6BDQc0lwgsDN1GJ31i'
 global.md = 'https://github.com/El-brayan502/NagiBotV3'
-global.ch = { id: '120363417186717632@newsletter' }
+global.ch = { id: '120363345778623279@newsletter' }
 
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => {
