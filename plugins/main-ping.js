@@ -3,7 +3,7 @@ import { spawn, exec, execSync } from 'child_process'
 
 let handler = async (m, { conn }) => {
 let timestamp = speed()
-let sentMsg = await conn.reply(m.chat, '🌹 Calculando ping de ${botname}...', m)
+let sentMsg = await conn.reply(m.chat, '🌹 Calculando ping...', m)
 let latency = speed() - timestamp
 exec(`neofetch --stdout`, (error, stdout, stderr) => {
 let child = stdout.toString("utf-8");
