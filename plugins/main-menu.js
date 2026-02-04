@@ -32,7 +32,6 @@ let handler = async (m, { conn, usedPrefix }) => {
 
 ׄꤥ ╾ׅ╼ㅤׄㅤꤪꤨ \`ᴅᴏᴡɴʟᴏᴀᴅᴇʀ\` ㅤꤪꤨ  ╾ׅ╼ㅤׄꤥㅤׅ
 > ✰ Comandos de descargas...
-
 > ${usedPrefix}play
 > ${usedPrefix}ig
 > ${usedPrefix}instagram 
@@ -41,20 +40,17 @@ let handler = async (m, { conn, usedPrefix }) => {
 
 ׄꤥ ╾ׅ╼ㅤׄㅤꤪꤨ \`ɪɴғᴏ\` ㅤꤪꤨ  ╾ׅ╼ㅤׄꤥㅤׅ
 > ✰ Comandos de información... 
-
 > ${usedPrefix}ping
 > ${usedPrefix}menu
 
 ׄꤥ ╾ׅ╼ㅤׄㅤꤪꤨ \`ᴏᴡɴᴇʀ\` ㅤꤪꤨ  ╾ׅ╼ㅤׄꤥㅤׅ
 > ✰ Comandos de la Owner... 
-
 > ${usedPrefix}update 
 > ${usedPrefix}cleartmp 
 > ${usedPrefix}detectar
 
 ׄꤥ ╾ׅ╼ㅤׄㅤꤪꤨ \`ɢʀᴏᴜᴘs\` ㅤꤪꤨ  ╾ׅ╼ㅤׄꤥㅤׅ
 > ✰ Comandos de grupos... 
-
 > ${usedPrefix}kick
 > ${usedPrefix}link
 > ${usedPrefix}tag
@@ -65,7 +61,6 @@ let handler = async (m, { conn, usedPrefix }) => {
 
 ׄꤥ ╾ׅ╼ㅤׄㅤꤪꤨ \`ᴛᴏᴏʟs\` ㅤꤪꤨ  ╾ׅ╼ㅤׄꤥㅤׅ
 > ✰ Comandos de utilidades... 
-
 > ${usedPrefix}s
 > ${usedPrefix}sticker
 > ${usedPrefix}toimg
