@@ -30,23 +30,31 @@ let handler = async (m, { conn, usedPrefix }) => {
 ׅㅤ𓏸𓈒ㅤׄ *ᴠᴇʀsɪᴏɴ ::* ${vs}
 ׅㅤ𓏸𓈒ㅤׄ *ᴜᴘᴛɪᴍᴇ ::* ${uptime}
 
-*+ MENU DOWNLOADER*
+ׄꤥ ╾ׅ╼ㅤׄㅤꤪꤨ \`ᴅᴏᴡɴʟᴏᴀᴅᴇʀ\` ㅤꤪꤨ  ╾ׅ╼ㅤׄꤥㅤׅ
+> ✰ Comandos de descargas...
+
 > ${usedPrefix}play
 > ${usedPrefix}ig
 > ${usedPrefix}instagram 
 > ${usedPrefix}fb
 > ${usedPrefix}facebook 
 
-*+ MENU INFO*
+ׄꤥ ╾ׅ╼ㅤׄㅤꤪꤨ \`ɪɴғᴏ\` ㅤꤪꤨ  ╾ׅ╼ㅤׄꤥㅤׅ
+> ✰ Comandos de información... 
+
 > ${usedPrefix}ping
 > ${usedPrefix}menu
 
-*+ MENU OWNER*
+ׄꤥ ╾ׅ╼ㅤׄㅤꤪꤨ \`ᴏᴡɴᴇʀ\` ㅤꤪꤨ  ╾ׅ╼ㅤׄꤥㅤׅ
+> ✰ Comandos de la Owner... 
+
 > ${usedPrefix}update 
 > ${usedPrefix}cleartmp 
 > ${usedPrefix}detectar
 
-*+ MENU GRUPO*
+ׄꤥ ╾ׅ╼ㅤׄㅤꤪꤨ \`ɢʀᴏᴜᴘs\` ㅤꤪꤨ  ╾ׅ╼ㅤׄꤥㅤׅ
+> ✰ Comandos de grupos... 
+
 > ${usedPrefix}kick
 > ${usedPrefix}link
 > ${usedPrefix}tag
@@ -55,7 +63,9 @@ let handler = async (m, { conn, usedPrefix }) => {
 > ${usedPrefix}open
 > ${usedPrefix}close
 
-*+ MENU TOOLS*
+ׄꤥ ╾ׅ╼ㅤׄㅤꤪꤨ \`ᴛᴏᴏʟs\` ㅤꤪꤨ  ╾ׅ╼ㅤׄꤥㅤׅ
+> ✰ Comandos de utilidades... 
+
 > ${usedPrefix}s
 > ${usedPrefix}sticker
 > ${usedPrefix}toimg
