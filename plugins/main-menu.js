@@ -55,13 +55,13 @@ let handler = async (m, { conn, usedPrefix }) => {
 ׄꤥ ╾ׅ╼ㅤׄㅤꤪꤨ \`ɢʀᴏᴜᴘs\` ㅤꤪꤨ  ╾ׅ╼ㅤׄꤥㅤׅ
 > ✰ Comandos de grupos... 
 
-> ${usedPrefix}kick
-> ${usedPrefix}link
-> ${usedPrefix}tag
-> ${usedPrefix}promote
-> ${usedPrefix}demote
-> ${usedPrefix}open
-> ${usedPrefix}close
+> ִׁ𑁯֪݃🍃᷼ᩚᮭ ๋ ${usedPrefix}kick
+> ִׁ𑁯֪݃🍃᷼ᩚᮭ ๋ ${usedPrefix}link
+> ִׁ𑁯֪݃🍃᷼ᩚᮭ ๋ ${usedPrefix}tag
+> ִׁ𑁯֪݃🍃᷼ᩚᮭ ๋ ${usedPrefix}promote
+> ִׁ𑁯֪݃🍃᷼ᩚᮭ ๋ ${usedPrefix}demote
+> ִׁ𑁯֪݃🍃᷼ᩚᮭ ๋ ${usedPrefix}open
+> ִׁ𑁯֪݃🍃᷼ᩚᮭ ๋ ${usedPrefix}close
 
 ׄꤥ ╾ׅ╼ㅤׄㅤꤪꤨ \`ᴛᴏᴏʟs\` ㅤꤪꤨ  ╾ׅ╼ㅤׄꤥㅤׅ
 > ✰ Comandos de utilidades... 
