@@ -21,6 +21,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 
     caption: `
 👤 Usuario: ${taguser}
+🌷 Versión: ${vs}
 
 *+ MENU DOWNLOADER*
 > ${usedPrefix}play
@@ -60,7 +61,7 @@ let handler = async (m, { conn, usedPrefix }) => {
       {
         name: 'cta_url',
         buttonParamsJson: JSON.stringify({
-          display_text: 'Instagram',
+          display_text: 'instagram',
           url: 'https://www.instagram.com/its.chinitaaa_'
         })
       }
