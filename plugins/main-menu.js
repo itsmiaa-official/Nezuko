@@ -20,10 +20,14 @@ let handler = async (m, { conn, usedPrefix }) => {
     businessOwnerJid: who || '0@s.whatsapp.net',
 
     caption: `
-hola ${saludo}
 
-👤 Usuario: ${taguser}
-🌷 Versión: ${vs}
+> . ﹡ ﹟ 🍁 ׄ ⬭ *¡ʜᴏʟᴀ!* ${taguser}
+
+*ㅤꨶ〆⁾ ㅤׄㅤ⸼ㅤׄ *͜🌷* ㅤ֢ㅤ⸱ㅤᯭִ*
+ㅤ𓏸𓈒ㅤׄ *sᴏʏ ::*${botname}
+ׅㅤ𓏸𓈒ㅤׄ *ᴅᴇᴠᴇʟᴏᴘᴇʀ ::* 𝕮𝖍𝖎𝖓𝖆 💋
+ׅㅤ𓏸𓈒ㅤׄ *ᴠᴇʀsɪᴏɴ ::* ${vs}
+ׅㅤ𓏸𓈒ㅤׄ *ᴜᴘᴛɪᴍᴇ ::*${uptime}
 
 *+ MENU DOWNLOADER*
 > ${usedPrefix}play
