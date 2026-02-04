@@ -21,6 +21,7 @@ global.sticker = 'sticker created by '
 
 global.banner = 'https://files.catbox.moe/7mo2x5.jpg'
 global.icono = ''
+global.logo = ''
 
 global.sessions = 'Sessions'
 global.jadi = 'JadiBots'
