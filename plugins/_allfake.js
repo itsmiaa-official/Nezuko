@@ -30,7 +30,7 @@ handler.all = async function (m, { conn }) {
     global.error = '⚠️'
     global.rwait = '⏳'
 
-    const time = moment.tz('America/Mexico_City').hour()
+    const time = moment.tz('America/Argentina/Buenos_Aires').hour()
     global.saludo = time >= 5 && time < 12 ? '☀️ Buenos días' : time >= 12 && time < 18 ? '🌤️ Buenas tardes' : '🌙 Buenas noches'
 
     global.fkontak = {
