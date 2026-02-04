@@ -33,11 +33,11 @@ let handler = async (m, { conn, usedPrefix }) => {
 ׄꤥ ╾ׅ╼ㅤׄㅤꤪꤨ \`ᴅᴏᴡɴʟᴏᴀᴅᴇʀ\` ㅤꤪꤨ  ╾ׅ╼ㅤׄꤥㅤׅ
 > ✰ Comandos de descargas...
 
-> ${usedPrefix}play
-> ${usedPrefix}ig
-> ${usedPrefix}instagram 
-> ${usedPrefix}fb
-> ${usedPrefix}facebook 
+> ִׁ𑁯֪݃🍥᷼ᩚᮭ ๋ ${usedPrefix}play
+> ִׁ𑁯֪݃🍥᷼ᩚᮭ ๋ ${usedPrefix}ig
+> ִׁ𑁯֪݃🍥᷼ᩚᮭ ๋ ${usedPrefix}instagram 
+> ִׁ𑁯֪݃🍥᷼ᩚᮭ ๋ ${usedPrefix}fb
+> ִׁ𑁯֪݃🍥᷼ᩚᮭ ๋ ${usedPrefix}facebook 
 
 ׄꤥ ╾ׅ╼ㅤׄㅤꤪꤨ \`ɪɴғᴏ\` ㅤꤪꤨ  ╾ׅ╼ㅤׄꤥㅤׅ
 > ✰ Comandos de información... 
