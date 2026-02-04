@@ -33,43 +33,43 @@ let handler = async (m, { conn, usedPrefix }) => {
 ׄꤥ ╾ׅ╼ㅤׄㅤꤪꤨ \`ᴅᴏᴡɴʟᴏᴀᴅᴇʀ\` ㅤꤪꤨ  ╾ׅ╼ㅤׄꤥㅤׅ
 > ✰ Comandos de descargas...
 
-> ִׁ𑁯֪݃🍥᷼ᩚᮭ ๋ ${usedPrefix}play
-> ִׁ𑁯֪݃🍥᷼ᩚᮭ ๋ ${usedPrefix}ig
-> ִׁ𑁯֪݃🍥᷼ᩚᮭ ๋ ${usedPrefix}instagram 
-> ִׁ𑁯֪݃🍥᷼ᩚᮭ ๋ ${usedPrefix}fb
-> ִׁ𑁯֪݃🍥᷼ᩚᮭ ๋ ${usedPrefix}facebook 
+> ${usedPrefix}play
+> ${usedPrefix}ig
+> ${usedPrefix}instagram 
+> ${usedPrefix}fb
+> ${usedPrefix}facebook 
 
 ׄꤥ ╾ׅ╼ㅤׄㅤꤪꤨ \`ɪɴғᴏ\` ㅤꤪꤨ  ╾ׅ╼ㅤׄꤥㅤׅ
 > ✰ Comandos de información... 
 
-> ִׁ𑁯֪݃🌟᷼ᩚᮭ ๋ ${usedPrefix}ping
-> ִׁ𑁯֪݃🌟᷼ᩚᮭ ๋ ${usedPrefix}menu
+> ${usedPrefix}ping
+> ${usedPrefix}menu
 
 ׄꤥ ╾ׅ╼ㅤׄㅤꤪꤨ \`ᴏᴡɴᴇʀ\` ㅤꤪꤨ  ╾ׅ╼ㅤׄꤥㅤׅ
 > ✰ Comandos de la Owner... 
 
-> ִׁ𑁯֪݃👑᷼ᩚᮭ ๋ ${usedPrefix}update 
-> ִׁ𑁯֪݃👑᷼ᩚᮭ ๋ ${usedPrefix}cleartmp 
-> ִׁ𑁯֪݃👑᷼ᩚᮭ ๋ ${usedPrefix}detectar
+> ${usedPrefix}update 
+> ${usedPrefix}cleartmp 
+> ${usedPrefix}detectar
 
 ׄꤥ ╾ׅ╼ㅤׄㅤꤪꤨ \`ɢʀᴏᴜᴘs\` ㅤꤪꤨ  ╾ׅ╼ㅤׄꤥㅤׅ
 > ✰ Comandos de grupos... 
 
-> ִׁ𑁯֪݃🍃᷼ᩚᮭ ๋ ${usedPrefix}kick
-> ִׁ𑁯֪݃🍃᷼ᩚᮭ ๋ ${usedPrefix}link
-> ִׁ𑁯֪݃🍃᷼ᩚᮭ ๋ ${usedPrefix}tag
-> ִׁ𑁯֪݃🍃᷼ᩚᮭ ๋ ${usedPrefix}promote
-> ִׁ𑁯֪݃🍃᷼ᩚᮭ ๋ ${usedPrefix}demote
-> ִׁ𑁯֪݃🍃᷼ᩚᮭ ๋ ${usedPrefix}open
-> ִׁ𑁯֪݃🍃᷼ᩚᮭ ๋ ${usedPrefix}close
+> ${usedPrefix}kick
+> ${usedPrefix}link
+> ${usedPrefix}tag
+> ${usedPrefix}promote
+> ${usedPrefix}demote
+> ${usedPrefix}open
+> ${usedPrefix}close
 
 ׄꤥ ╾ׅ╼ㅤׄㅤꤪꤨ \`ᴛᴏᴏʟs\` ㅤꤪꤨ  ╾ׅ╼ㅤׄꤥㅤׅ
 > ✰ Comandos de utilidades... 
 
-> ִׁ𑁯֪݃🍄᷼ᩚᮭ ๋ ${usedPrefix}s
-> ִׁ𑁯֪݃🍄᷼ᩚᮭ ๋ ${usedPrefix}sticker
-> ִׁ𑁯֪݃🍄᷼ᩚᮭ ๋ ${usedPrefix}toimg
-> ִׁ𑁯֪݃🍄᷼ᩚᮭ ๋ ${usedPrefix}inspect
+> ${usedPrefix}s
+> ${usedPrefix}sticker
+> ${usedPrefix}toimg
+> ${usedPrefix}inspect
 
 `.trim(),
 
