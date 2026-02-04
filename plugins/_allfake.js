@@ -17,7 +17,7 @@ handler.all = async function (m, { conn }) {
         isForwarded: true,
         forwardedNewsletterMessageInfo: { newsletterJid: idcanal, serverMessageId: 100, newsletterName: nombrecanal },
         externalAdReply: {
-          title: '${botname}',
+          title: '${global.botname}',
           thumbnailUrl: 'https://chat.whatsapp.com/KAhwtBdTOYlFsbsU8rwo79',
           thumbnail: await (await fetch(global.iconorcanal)).buffer(),
           mediaType: 1,
