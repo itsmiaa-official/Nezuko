@@ -2,7 +2,8 @@ let handler = async (m, { conn, usedPrefix }) => {
 
   const who = m.sender
   const taguser = `@${who.split('@')[0]}`
-
+    let _uptime = process.uptime() * 1000
+    let uptime = clockString(_uptime)
 
   const productMessage = {
     product: {
@@ -85,3 +86,11 @@ let handler = async (m, { conn, usedPrefix }) => {
 handler.command = ['menu', 'allmenu', 'help']
 
 export default handler
+
+
+function clockString(ms) {
+    let seconds = Math.floor((ms / 1000) % 60)
+    let minutes = Math.floor((ms / (1000 * 60)) % 60)
+    let hours = Math.floor((ms / (1000 * 60 * 60)) % 24)
+    return `${hours}h ${minutes}m ${seconds}s`
+}
