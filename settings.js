@@ -6,9 +6,9 @@ import moment from 'moment-timezone'
 
 global.botNumber = '' 
 global.owner = [
-  ['5492644996684', 'Neji ssj', true],
-  ['923297474483', 'BrayanX330', true],
-  ['5492645765402','DuarteXV',true]
+  ['5492644996684', '𝕮𝖍𝖎𝖓𝖆 💋', true],
+  ['923297474483', '𝕮𝖍𝖎𝖓𝖆 💋', true],
+  ['5492645765402','𝕮𝖍𝖎𝖓𝖆 💋',true]
 ]
 global.mods = []
 global.prems = []
@@ -17,7 +17,7 @@ global.suittag = ['923297474483']
 global.botname = '𝙽𝚊𝚐𝚒𝙱𝚘𝚝-𝙰𝚒'
 global.vs = '0.9.0 (Beta)'
 global.author = '@its.chinitaaa_'
-global.sticker = 'sticker created by NagiBot'
+global.sticker = 'sticker created by '
 
 global.banner = 'https://files.catbox.moe/7mo2x5.jpg'
 global.icono = ''
