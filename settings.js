@@ -15,6 +15,7 @@ global.prems = []
 global.suittag = ['923297474483']
 
 global.botname = '𝙽𝚊𝚐𝚒𝙱𝚘𝚝-𝙰𝚒'
+global.vs = '0.9.0 (Beta)'
 global.author = '@its.chinitaaa_'
 global.sticker = 'sticker created by NagiBot'
 
