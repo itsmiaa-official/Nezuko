@@ -30,27 +30,27 @@ let handler = async (m, { conn, usedPrefix }) => {
 ׅㅤ𓏸𓈒ㅤׄ *ᴠᴇʀsɪᴏɴ ::* ${vs}
 ׅㅤ𓏸𓈒ㅤׄ *ᴜᴘᴛɪᴍᴇ ::* ${uptime}
 
-ׄꤥ ╾ׅ╼ㅤׄㅤꤪꤨ \`ᴅᴏᴡɴʟᴏᴀᴅᴇʀ\` ㅤꤪꤨ  ╾ׅ╼ㅤׄꤥㅤׅ
-> \`✰\` Comandos de descargas...
+> ׄꤥ ╾ׅ╼ㅤׄㅤꤪꤨ \`DOWNLOADER\` ㅤ
+
 > ${usedPrefix}play
 > ${usedPrefix}ig
 > ${usedPrefix}instagram 
 > ${usedPrefix}fb
 > ${usedPrefix}facebook 
 
-ׄꤥ ╾ׅ╼ㅤׄㅤꤪꤨ \`ɪɴғᴏ\` ㅤꤪꤨ  ╾ׅ╼ㅤׄꤥㅤׅ
-> \`✰\` Comandos de información... 
+> ׄꤥ ╾ׅ╼ㅤׄㅤꤪꤨ \`INFO\`
+ 
 > ${usedPrefix}ping
 > ${usedPrefix}menu
 
-ׄꤥ ╾ׅ╼ㅤׄㅤꤪꤨ \`ᴏᴡɴᴇʀ\` ㅤꤪꤨ  ╾ׅ╼ㅤׄꤥㅤׅ
-> \`✰\` Comandos de la Owner... 
+> ׄꤥ ╾ׅ╼ㅤׄㅤꤪꤨ \`OWNER\`
+
 > ${usedPrefix}update 
 > ${usedPrefix}cleartmp 
 > ${usedPrefix}detectar
 
-ׄꤥ ╾ׅ╼ㅤׄㅤꤪꤨ \`ɢʀᴏᴜᴘs\` ㅤꤪꤨ  ╾ׅ╼ㅤׄꤥㅤׅ
-> \`✰\` Comandos de grupos... 
+> ׄꤥ ╾ׅ╼ㅤׄㅤꤪꤨ \`GROUPS\`
+ 
 > ${usedPrefix}kick
 > ${usedPrefix}link
 > ${usedPrefix}tag
@@ -59,8 +59,8 @@ let handler = async (m, { conn, usedPrefix }) => {
 > ${usedPrefix}open
 > ${usedPrefix}close
 
-ׄꤥ ╾ׅ╼ㅤׄㅤꤪꤨ \`ᴛᴏᴏʟs\` ㅤꤪꤨ  ╾ׅ╼ㅤׄꤥㅤׅ
-> \`✰\` Comandos de utilidades... 
+> ׄꤥ ╾ׅ╼ㅤׄㅤꤪꤨ \`TOOLS\`
+
 > ${usedPrefix}s
 > ${usedPrefix}sticker
 > ${usedPrefix}toimg
