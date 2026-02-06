@@ -1,5 +1,5 @@
 {
-  "name": "base-wa",
+  "name": "Shlphay",
   "version": "2.2.6",
   "description": "WhatsApp Bot Multi Device",
   "main": "index.js",
@@ -17,16 +17,16 @@
     "eslint": "eslint .",
     "eslintfix": "eslint --fix ."
   },
-  "homepage": "https://github.com/El-brayan502",
+  "homepage": "https://github.com/itsmiaa-official",
   "author": {
-    "name": "Brayan330"
+    "name": "China"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/El-brayan502/NagiBotV3.git"
+    "url": "git+https://github.com/itsmiaa-official/Sylpha.git"
   },
   "bugs": {
-    "url": "https://github.com/El-brayan502/NagiBotV3/issues"
+    "url": "https://github.com/itsmiaa-official/Sylpha/issues"
   },
   "license": "MIT-License",
   "dependencies": {
