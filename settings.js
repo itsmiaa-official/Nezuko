@@ -14,10 +14,10 @@ global.mods = []
 global.prems = []
 global.suittag = ['923297474483']
 
-global.botname = '𝙽𝚊𝚐𝚒𝙱𝚘𝚝-𝙰𝚒'
+global.botname = 'ѕуℓρнα'
 global.vs = '0.9.0 (Beta)'
 global.author = '@its.chinitaaa_'
-global.sticker = 'sticker created by '
+global.sticker = '𝚂𝚝𝚒𝚌𝚔𝚎𝚛 𝚌𝚛𝚎𝚊𝚝𝚎𝚍 𝚋𝚢 ѕуℓρнα'
 
 global.banner = 'https://files.catbox.moe/7mo2x5.jpg'
 global.icono = ''
@@ -30,7 +30,7 @@ global.multiplier = 60
 global.prefix = /^[./!#?]/
 
 global.channel = 'https://whatsapp.com/channel/0029Vb6BDQc0lwgsDN1GJ31i'
-global.md = 'https://github.com/El-brayan502/NagiBotV3'
+global.md = 'https://github.com/itsmiaa-official/Sylpha'
 global.ch = { id: '120363345778623279@newsletter' }
 
 let file = fileURLToPath(import.meta.url)
