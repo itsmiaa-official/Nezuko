@@ -15,7 +15,7 @@ global.prems = []
 global.suittag = ['923297474483']
 
 global.botname = 'ѕуℓρнα 🌱'
-global.vs = '0.9.0 (Beta)'
+global.vs = '2.2.6 (Beta)'
 global.author = '@its.chinitaaa_'
 global.sticker = '𝚂𝚝𝚒𝚌𝚔𝚎𝚛 𝚌𝚛𝚎𝚊𝚝𝚎𝚍 𝚋𝚢 ѕуℓρнα 🌱'
 
