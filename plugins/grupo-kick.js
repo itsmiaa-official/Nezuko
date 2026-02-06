@@ -20,17 +20,17 @@ let handler = async (m, { conn, usedPrefix, command, participants, isAdmin, isBo
   const owner = participantsData.find(p => p.admin === 'superadmin')
   const adminNums = new Set(participantsData.filter(p => ['admin', 'superadmin'].includes(p.admin)).map(p => normalize(p.id)))
 
-  if (targetNum && targetNum === botNum) return m.reply('⚠️ ɴᴏ ᴘᴜᴇᴅᴏ ᴇxᴘᴜʟsᴀʀᴍᴇ ᴀ ᴍɪ ᴍɪsᴍᴏ.\n> ɴᴀɢɪ ʙᴏᴛ 🔱')
+  if (targetNum && targetNum === botNum) return m.reply('⚠️ ɴᴏ ᴘᴜᴇᴅᴏ ᴇxᴘᴜʟsᴀʀᴍᴇ ᴀ ᴍɪ ᴍɪsᴍᴀ.\n')
   if (adminNums.has(targetNum) || (owner && normalize(owner.id) === targetNum)) {
-    return m.reply('🚫 ɴᴏ ᴘᴜᴇᴅᴏ ᴇxᴘᴜʟsᴀʀ ᴀ ᴏᴛʀᴏ ᴀᴅᴍɪɴ ɴɪ ᴀʟ ᴄʀᴇᴀᴅᴏʀ.\n> ɴᴀɢɪ ʙᴏᴛ 🔱')
+    return m.reply('🚫 ɴᴏ ᴘᴜᴇᴅᴏ ᴇxᴘᴜʟsᴀʀ ᴀ ᴏᴛʀᴏ ᴀᴅᴍɪɴ ɴɪ ᴀʟ ᴄʀᴇᴀᴅᴏʀ.')
   }
 
   try {
     
     await conn.groupParticipantsUpdate(m.chat, [toUserJid(target)], 'remove')
-  await conn.reply(m.chat, `✅ ᴜsᴜᴀʀɪᴏ @${targetNum} ᴇxᴘᴜʟsᴀᴅᴏ.\n> ɴᴀɢɪ ʙᴏᴛ 🔱`, m, { mentions: [toUserJid(target)] })
+  await conn.reply(m.chat, `✅ ᴜsᴜᴀʀɪᴏ @${targetNum} ᴇxᴘᴜʟsᴀᴅᴏ.`, m, { mentions: [toUserJid(target)] })
   } catch (e) {
-  return m.reply(`❌ ᴇʀʀᴏʀ ᴀʟ ᴇxᴘᴜʟsᴀʀ: ${e?.message || e}\n> ɴᴀɢɪ ʙᴏᴛ 🔱`)
+  return m.reply(`❌ ᴇʀʀᴏʀ ᴀʟ ᴇxᴘᴜʟsᴀʀ: ${e?.message || e}`)
   }
 }
 
