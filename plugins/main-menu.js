@@ -12,7 +12,7 @@ let handler = async (m, { conn, usedPrefix }) => {
       title: botname,
       description: '',
       currencyCode: 'USD',
-      priceAmount1000: 'Prueba',
+      priceAmount1000: '0',
       retailerId: 1677,
       url: 'https://wa.me/0',
       productImageCount: 1
