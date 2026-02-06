@@ -14,10 +14,10 @@ global.mods = []
 global.prems = []
 global.suittag = ['923297474483']
 
-global.botname = 'ѕуℓρнα'
+global.botname = 'ѕуℓρнα 🍃'
 global.vs = '0.9.0 (Beta)'
 global.author = '@its.chinitaaa_'
-global.sticker = '𝚂𝚝𝚒𝚌𝚔𝚎𝚛 𝚌𝚛𝚎𝚊𝚝𝚎𝚍 𝚋𝚢 ѕуℓρнα'
+global.sticker = '𝚂𝚝𝚒𝚌𝚔𝚎𝚛 𝚌𝚛𝚎𝚊𝚝𝚎𝚍 𝚋𝚢 ѕуℓρнα 🌱'
 
 global.banner = 'https://files.catbox.moe/7mo2x5.jpg'
 global.icono = ''
@@ -25,7 +25,7 @@ global.logo = ''
 
 global.sessions = 'Sessions'
 global.jadi = 'JadiBots'
-global.moneda = 'dolares'
+global.moneda = 'dolares 💸'
 global.multiplier = 60
 global.prefix = /^[./!#?]/
 
