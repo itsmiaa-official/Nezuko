@@ -38,30 +38,6 @@ throw false
 chat.goodbye = isEnable
 break
 }
-case 'modoadmin': case 'onlyadmin': {
-if (!m.isGroup) {
-if (!isOwner) {
-global.dfail('group', m, conn)
-throw false
-}} else if (!isAdmin) {
-global.dfail('admin', m, conn)
-throw false
-}
-chat.modoadmin = isEnable
-break
-}
-case 'detect': case 'alertas': {
-if (!m.isGroup) {
-if (!isOwner) {
-global.dfail('group', m, conn)
-throw false
-}} else if (!isAdmin) {
-global.dfail('admin', m, conn)
-throw false
-}
-chat.detect = isEnable
-break
-}
 case 'antilink': case 'antienlace': {
 if (!m.isGroup) {
 if (!isOwner) {
@@ -70,53 +46,14 @@ throw false
 }} else if (!isAdmin) {
 global.dfail('admin', m, conn)
 throw false
-}
-chat.antiLink = isEnable
-break
-}
-case 'nsfw': case 'modohorny': {
-if (!m.isGroup) {
-if (!isOwner) {
-global.dfail('group', m, conn)
-throw false
-}} else if (!isAdmin) {
-global.dfail('admin', m, conn)
-throw false
-}
-chat.nsfw = isEnable
-break
-}
-case 'economy': case 'economia': {
-if (!m.isGroup) {
-if (!isOwner) {
-global.dfail('group', m, conn)
-throw false
-}} else if (!isAdmin) {
-global.dfail('admin', m, conn)
-throw false
-}
-chat.economy = isEnable
-break
-}
-case 'rpg': case 'gacha': {
-if (!m.isGroup) {
-if (!isOwner) {
-global.dfail('group', m, conn)
-throw false
-}} else if (!isAdmin) {
-global.dfail('admin', m, conn)
-throw false
-}
-chat.gacha = isEnable
-break
 }}
 chat[type] = isEnable
 conn.reply(m.chat, `❀ Has *${isEnable ? 'activado' : 'desactivado'}* el *${type}* para este grupo.`, m)
 }
 
-handler.help = ['welcome', 'bienvenida','despedida', 'goodbye', 'modoadmin', 'onlyadmin', 'nsfw', 'modohorny', 'economy', 'economia', 'rpg', 'gacha', 'detect', 'alertas', 'antilink', 'antienlace', 'antilinks', 'antienlaces']
+handler.help = ['welcome', 'bienvenida','despedida', 'goodbye', 'antilink', 'antienlaces']
 handler.tags = ['nable']
-handler.command = ['welcome', 'bienvenida','despedida','goodbye','modoadmin', 'onlyadmin', 'nsfw', 'modohorny', 'economy', 'economia', 'rpg', 'gacha', 'detect', 'alertas', 'antilink', 'antienlace']
+handler.command = ['welcome', 'bienvenida','despedida','goodbye','antilink', 'antienlace']
 handler.group = true
 
 export default handler
