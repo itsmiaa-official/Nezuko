@@ -62,7 +62,7 @@ const handler = async (m, { conn, args, usedPrefix, command }) => {
     if (!video) return conn.reply(m.chat, `😵 No encontré nada con: "${queryOrUrl}"`, m);
 
     const caption = `
-「✦」Descargando *<${video.title}>*
+> 🌱 Descargando *<${video.title}>*
 
 > \`♡ Vistas\` » *${video.views.toLocaleString()}*
 > \`✰ Calidad\` » 130kbps
