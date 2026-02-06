@@ -9,7 +9,7 @@ let handler = async (m, { conn, usedPrefix }) => {
     product: {
       productImage: { url: banner },
       productId: '24529689176623820',
-      title: botname,
+      title: `${botname} | @its.chinitaaa_`,
       description: '',
       currencyCode: 'USD',
       priceAmount1000: '0',
