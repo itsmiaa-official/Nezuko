@@ -1,8 +1,3 @@
-/**
- * NAGI BOT - BOT CORE
- * Refactored for greater readability and order. 
- */
-
 import './settings.js'
 import { createRequire } from 'module'
 import { fileURLToPath, pathToFileURL } from 'url'
@@ -60,8 +55,8 @@ global.opts = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse()
 global.prefix = new RegExp('^[#!./-]')
 
 console.log(chalk.magentaBright('\n𝙸𝚗𝚒𝚌𝚒𝚊𝚗𝚍𝚘 𝙴𝚜𝚙𝚎𝚛𝚎'))
-say('NAGI-BASE', { font: 'block', align: 'left', gradient: ['green', 'white'] })
-say('Created by Brayan330', { font: 'console', align: 'center', colors: ['cyan', 'magenta', 'yellow'] })
+say('Sylpha', { font: 'block', align: 'left', gradient: ['green', 'white'] })
+say('Created by @its.chinitaaa_', { font: 'console', align: 'center', colors: ['cyan', 'magenta', 'yellow'] })
 
 global.db = new Low(/https?:\/\//.test(global.opts['db'] || '') ? new cloudDBAdapter(global.opts['db']) : new JSONFile('database.json'))
 global.DATABASE = global.db
@@ -142,7 +137,7 @@ async function connectionUpdate(update) {
     if (qr) console.log(chalk.yellow(`「 ⬆️ 」Escanea el código QR mostrado arriba.`))
     
     if (connection === "open") {
-        console.log(chalk.yellow(`\n「 ✅️ 」CONEXIÓN EXITOSA DE NAGI | ${conn.user.name}`))
+        console.log(chalk.yellow(`\n「 ✅️ 」CONEXIÓN EXITOSA DE SYLPHA | ${conn.user.name}`))
         await joinChannels(this)
     }
 
