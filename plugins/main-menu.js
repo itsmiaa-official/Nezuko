@@ -30,7 +30,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ׅㅤ𓏸𓈒ㅤׄ *ᴠᴇʀsɪᴏɴ ::* ${vs}
 ׅㅤ𓏸𓈒ㅤׄ *ᴜᴘᴛɪᴍᴇ ::* ${uptime}
 
-> ׄꤥ ╾ׅ╼ㅤׄㅤꤪꤨ \`DOWNLOADER\` ㅤ
+> ׄꤥ \`DOWNLOADER\` ㅤ
 
 > ${usedPrefix}play
 > ${usedPrefix}ig
@@ -38,18 +38,18 @@ let handler = async (m, { conn, usedPrefix }) => {
 > ${usedPrefix}fb
 > ${usedPrefix}facebook 
 
-> ׄꤥ ╾ׅ╼ㅤׄㅤꤪꤨ \`INFO\`
+> ׄꤥ \`INFO\`
  
 > ${usedPrefix}ping
 > ${usedPrefix}menu
 
-> ׄꤥ ╾ׅ╼ㅤׄㅤꤪꤨ \`OWNER\`
+> ׄꤥ \`OWNER\`
 
 > ${usedPrefix}update 
 > ${usedPrefix}cleartmp 
 > ${usedPrefix}detectar
 
-> ׄꤥ ╾ׅ╼ㅤׄㅤꤪꤨ \`GROUPS\`
+> ׄꤥ \`GROUPS\`
  
 > ${usedPrefix}kick
 > ${usedPrefix}link
@@ -59,7 +59,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 > ${usedPrefix}open
 > ${usedPrefix}close
 
-> ׄꤥ ╾ׅ╼ㅤׄㅤꤪꤨ \`TOOLS\`
+> ׄꤥ \`TOOLS\`
 
 > ${usedPrefix}s
 > ${usedPrefix}sticker
