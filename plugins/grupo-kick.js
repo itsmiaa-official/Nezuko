@@ -5,9 +5,9 @@ let handler = async (m, { conn, usedPrefix, command, participants, isAdmin, isBo
     return n ? `${n}@s.whatsapp.net` : ''
   }
 
-  if (!m.isGroup) return m.reply('🔱 ᴇsᴛᴇ ᴄᴏᴍᴀɴᴅᴏ ᴇs sᴏʟᴏ ᴘᴀʀᴀ ɢʀᴜᴘᴏs.\n> ɴᴀɢɪ ʙᴏᴛ 🔱')
-  if (!isAdmin && !m.key.fromMe) return m.reply('🔱 ᴇsᴛᴇ ᴄᴏᴍᴀɴᴅᴏ ᴇs sᴏʟᴏ ᴘᴀʀᴀ ᴀᴅᴍɪɴɪsᴛʀᴀᴅᴏʀᴇs.\n> ɴᴀɢɪ ʙᴏᴛ 🔱')
-  if (!isBotAdmin) return m.reply('🔱 ɴᴇᴄᴇsɪᴛᴏ sᴇʀ ᴀᴅᴍɪɴ ᴘᴀʀᴀ ʜᴀᴄᴇʀ ᴇsᴏ.\n> ������� ʙᴏᴛ 🔱')
+  if (!m.isGroup) return m.reply('> \`✯\` ᴇsᴛᴇ ᴄᴏᴍᴀɴᴅᴏ ᴇs sᴏʟᴏ ᴘᴀʀᴀ ɢʀᴜᴘᴏs.')
+  if (!isAdmin && !m.key.fromMe) return m.reply('> \`✯\` ᴇsᴛᴇ ᴄᴏᴍᴀɴᴅᴏ ᴇs sᴏʟᴏ ᴘᴀʀᴀ ᴀᴅᴍɪɴɪsᴛʀᴀᴅᴏʀᴇs.')
+  if (!isBotAdmin) return m.reply('> \`✯\` ɴᴇᴄᴇsɪᴛᴏ sᴇʀ ᴀᴅᴍɪɴ ᴘᴀʀᴀ ʜᴀᴄᴇʀ ᴇsᴏ.')
 
   let target = (m.mentionedJid && m.mentionedJid[0]) || (m.quoted?.sender) || null
   if (!target) return m.reply('⚜️ ᴅᴇʙᴇs ᴍᴇɴᴄɪᴏɴᴀʀ ᴜɴ ᴜsᴜᴀʀɪᴏ ᴏ ʀᴇsᴘᴏɴᴅᴇʀ ᴀ ᴜɴ ᴍᴇɴsᴀᴊᴇ.\n> ɴᴀɢɪ ʙᴏᴛ 🔱')
