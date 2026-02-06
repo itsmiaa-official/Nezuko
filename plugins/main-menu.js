@@ -30,41 +30,41 @@ let handler = async (m, { conn, usedPrefix }) => {
 ׅㅤ𓏸𓈒ㅤׄ *ᴠᴇʀsɪᴏɴ ::* ${vs}
 ׅㅤ𓏸𓈒ㅤׄ *ᴜᴘᴛɪᴍᴇ ::* ${uptime}
 
-> ׄꤥ \`DOWNLOADER\` ㅤ
+> ## \`DOWNLOADER 🌱\`
 
-> ${usedPrefix}play
-> ${usedPrefix}ig
-> ${usedPrefix}instagram 
-> ${usedPrefix}fb
-> ${usedPrefix}facebook 
+> \`•\` ${usedPrefix}play
+> \`•\` ${usedPrefix}ig
+> \`•\` ${usedPrefix}instagram 
+> \`•\` ${usedPrefix}fb
+> \`•\` ${usedPrefix}facebook 
 
-> ׄꤥ \`INFO\`
+> ## \`INFO 🌱\`
  
-> ${usedPrefix}ping
-> ${usedPrefix}menu
+> \`•\` ${usedPrefix}ping
+> \`•\` ${usedPrefix}menu
 
-> ׄꤥ \`OWNER\`
+> ## \`OWNER 🌱\`
 
-> ${usedPrefix}update 
-> ${usedPrefix}cleartmp 
-> ${usedPrefix}detectar
+> \`•\` ${usedPrefix}update 
+> \`•\` ${usedPrefix}cleartmp 
+> \`•\` ${usedPrefix}detectar
 
-> ׄꤥ \`GROUPS\`
+> ## \`GROUPS 🌱\`
  
-> ${usedPrefix}kick
-> ${usedPrefix}link
-> ${usedPrefix}tag
-> ${usedPrefix}promote
-> ${usedPrefix}demote
-> ${usedPrefix}open
-> ${usedPrefix}close
+> \`•\` ${usedPrefix}kick
+> \`•\` ${usedPrefix}link
+> \`•\` ${usedPrefix}tag
+> \`•\` ${usedPrefix}promote
+> \`•\` ${usedPrefix}demote
+> \`•\` ${usedPrefix}open
+> \`•\` ${usedPrefix}close
 
-> ׄꤥ \`TOOLS\`
+> \`TOOLS 🌱\`
 
-> ${usedPrefix}s
-> ${usedPrefix}sticker
-> ${usedPrefix}toimg
-> ${usedPrefix}inspect
+> \`•\` ${usedPrefix}s
+> \`•\` ${usedPrefix}sticker
+> \`•\` ${usedPrefix}toimg
+> \`•\` ${usedPrefix}inspect
 
 `.trim(),
 
