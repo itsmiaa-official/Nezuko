@@ -10,7 +10,7 @@ let handler = async (m, { conn, usedPrefix, command, participants, isAdmin, isBo
   if (!isBotAdmin) return m.reply('> \`✯\` ɴᴇᴄᴇsɪᴛᴏ sᴇʀ ᴀᴅᴍɪɴ ᴘᴀʀᴀ ʜᴀᴄᴇʀ ᴇsᴏ.')
 
   let target = (m.mentionedJid && m.mentionedJid[0]) || (m.quoted?.sender) || null
-  if (!target) return m.reply('⚜️ ᴅᴇʙᴇs ᴍᴇɴᴄɪᴏɴᴀʀ ᴜɴ ᴜsᴜᴀʀɪᴏ ᴏ ʀᴇsᴘᴏɴᴅᴇʀ ᴀ ᴜɴ ᴍᴇɴsᴀᴊᴇ.')
+  if (!target) return m.reply('🌱 ᴅᴇʙᴇs ᴍᴇɴᴄɪᴏɴᴀʀ ᴜɴ ᴜsᴜᴀʀɪᴏ ᴏ ʀᴇsᴘᴏɴᴅᴇʀ ᴀ ᴜɴ ᴍᴇɴsᴀᴊᴇ.')
 
   const groupMetadata = await conn.groupMetadata(m.chat)
   const participantsData = groupMetadata.participants || []
