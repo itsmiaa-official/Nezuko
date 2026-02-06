@@ -1,7 +1,7 @@
 import fetch from "node-fetch";
 import yts from "yt-search";
 
-const CAUSA_API_KEY = 'causa-fa8b103258fb60fe';
+const CAUSA_API_KEY = 'causa-53f9867cf7fdec8a';
 
 const handler = async (m, { conn, args, usedPrefix, command }) => {
   const name = conn.getName(m.sender);
