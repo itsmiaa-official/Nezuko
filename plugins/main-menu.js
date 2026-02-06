@@ -10,6 +10,7 @@ let handler = async (m, { conn, usedPrefix }) => {
       productImage: { url: banner },
       productId: '24529689176623820',
       title: botname,
+      body: "Prueba",
       description: '',
       currencyCode: 'USD',
       priceAmount1000: '100',
