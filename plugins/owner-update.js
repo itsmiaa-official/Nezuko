@@ -9,7 +9,7 @@ let handler = async (m, { conn, text }) => {
 
     await conn.reply(
       m.chat,
-      `🛠️ *ACTUALIZACIÓN DEL BOT*\n\n${out.trim() || '✅ Actualizado correctamente'}`,
+      `🪴 *ACTUALIZACIÓN DEL BOT*\n\n${out.trim() || '✅ Actualizado correctamente'}`,
       m,
       rcanal
     )
