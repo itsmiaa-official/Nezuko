@@ -30,6 +30,8 @@ let handler = async (m, { conn, usedPrefix }) => {
 ׅㅤ𓏸𓈒ㅤׄ *ᴠᴇʀsɪᴏɴ ::* ${vs}
 ׅㅤ𓏸𓈒ㅤׄ *ᴜᴘᴛɪᴍᴇ ::* ${uptime}
 
+> https://sylpha-wabot.vercel.app
+
 > ## \`DOWNLOADER 🌱\`
 
 > \`•\` ${usedPrefix}play
