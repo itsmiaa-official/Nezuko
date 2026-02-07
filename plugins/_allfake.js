@@ -10,7 +10,7 @@ handler.all = async function (m, { conn }) {
     global.iconorcanal = 'https://files.catbox.moe/3uzi5u.jpg'
 
     global.idcanal = "120363345778623279@newsletter" 
-    global.nombrecanal = "=͟͟͞͞𝐒𝐩𝐚𝐜𝐞 𝐖𝐨𝐫𝐥𝐝 𝐂𝐥𝐮𝐛'𝐬 - 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ✰"
+    global.nombrecanal = "ѕуℓρнα ¢нαηηєℓ | ¡𝖭𝖾𝗐𝗌! 🌱"
 
     global.rcanal = {
       contextInfo: {
