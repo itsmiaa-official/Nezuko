@@ -61,7 +61,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ׅㅤ𓏸𓈒ㅤׄ *ᴘʀᴇғɪᴊᴏ* \`::\` ${botPrefix} 
 ׅㅤ𓏸𓈒ㅤׄ *ᴄᴏᴍᴀɴᴅᴏs* \`::\` ${totalCommands}   
 ׅㅤ𓏸𓈒ㅤׄ *ᴍᴏᴅᴏ* \`::\` ${botMode === 'private' ? '𝗣𝗿𝗶𝘃𝗮𝗱𝗼' : '𝗣𝘂́𝗯𝗹𝗶𝗰𝗼'}
-ׅㅤ𓏸𓈒ㅤׄ *ᴜsᴜᴀʀɪᴏs* \`::\` ${totalsers.toLocaleString()}
+ׅㅤ𓏸𓈒ㅤׄ *ᴜsᴜᴀʀɪᴏs* \`::\` ${totalUsers.toLocaleString()}
 ׅㅤ𓏸𓈒ㅤׄ *ʟɪʙʀᴇʀɪᴀ* \`::\` ${global.libreria || 'Baileys Multi Device'} 
 
 
