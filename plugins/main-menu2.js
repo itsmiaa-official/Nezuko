@@ -7,11 +7,14 @@ let handler = async (m, { conn, usedPrefix }) => {
     const totalCommands = Object.values(global.plugins || {}).filter(v => v.help && v.tags).length || 0
     const isSubBot = conn.user?.jid !== global.conn?.user?.jid
     const botConfig = conn.subConfig || {}
-
+ 
     const botName = botConfig.name || (isSubBot ? `SubBot ${conn.user.jid.split('@')[0].slice(-4)}` : global.botname || 'ᴀsᴛᴀ-ʙᴏᴛ')
     const botPrefix = botConfig.prefix || (typeof global.prefix === 'string' ? global.prefix : '#')
     const botMode = isSubBot ? (botConfig.mode || 'public') : 'private'
     const version = global.vs || '1.5'
+
+    let _uptime = process.uptime() * 1000
+    let uptime = clockString(_uptime)
 
     // ========== OBTENER IMAGEN ==========
     let imageBuffer = null
@@ -119,3 +122,12 @@ handler.tags = ['main']
 handler.command = ['menu', 'menú', 'help', 'start', 'iniciar']
 
 export default handler
+
+
+
+function clockString(ms) {
+    let seconds = Math.floor((ms / 1000) % 60)
+    let minutes = Math.floor((ms / (1000 * 60)) % 60)
+    let hours = Math.floor((ms / (1000 * 60 * 60)) % 24)
+    return `${hours}h ${minutes}m ${seconds}s`
+}
