@@ -47,9 +47,7 @@ let handler = async (m, { conn, usedPrefix }) => {
       imageUrl = 'https://raw.githubusercontent.com/Fer280809/Asta_bot/main/lib/catalogo.jpg'
     }
 
-    const infoText = `
-    
-> . ﹡ ﹟ 🎭 ׄ ⬭ *¡ʜᴏʟᴀ!* @${m.sender.split('@')[0]}
+    const infoText = `> . ﹡ ﹟ 🎭 ׄ ⬭ *¡ʜᴏʟᴀ!* @${m.sender.split('@')[0]}
 
 *ㅤꨶ〆⁾ ㅤׄㅤ⸼ㅤׄ *͜⚡* ㅤ֢ㅤ⸱ㅤᯭִ*
 ㅤ𓏸𓈒ㅤׄ *sᴏʏ* :: *${botName.toUpperCase()}*
