@@ -18,26 +18,15 @@ let handler = async (m, { conn, usedPrefix }) => {
       botConfig.prefix ||
       (typeof global.prefix === 'string' ? global.prefix : '#')
 
-    const botMode = isSubBot
-      ? botConfig.mode || 'public'
-      : 'private'
-
+    const botMode = isSubBot ? (botConfig.mode || 'public') : 'private'
     const version = global.vs || '1.5'
 
-    // ========= OBTENER IMAGEN =========
+    // ========= IMAGEN =========
     let imageUrl = null
 
-    // logo URL del SubBot
-    if (isSubBot && botConfig.logoUrl) {
-      imageUrl = botConfig.logoUrl
-    }
+    if (isSubBot && botConfig.logoUrl) imageUrl = botConfig.logoUrl
+    if (!imageUrl && global.icono) imageUrl = global.icono
 
-    // logo global
-    if (!imageUrl && global.icono) {
-      imageUrl = global.icono
-    }
-
-    // fallback
     if (!imageUrl) {
       imageUrl =
         'https://raw.githubusercontent.com/Fer280809/Asta_bot/main/lib/catalogo.jpg'
@@ -89,26 +78,23 @@ let handler = async (m, { conn, usedPrefix }) => {
     await conn.sendMessage(
       m.chat,
       {
-        productMessage: {
-          product: {
-            productImage: { url: imageUrl },
-            productId: '24529689176623820',
-            title: `${botName} | v${version}`,
-            description: 'Sistema activo',
-            currencyCode: 'USD',
-            priceAmount1000: '0',
-            retailerId: 1677,
-            url: 'https://wa.me/0',
-            productImageCount: 1
-          },
-          businessOwnerJid: conn.user.jid
-        },
-
+        image: { url: imageUrl },
         caption: infoText,
         footer: `${botName} • v${version} • By ${global.etiqueta || 'ғᴇʀɴᴀɴᴅᴏ'}`,
         buttons: buttons,
-        headerType: 5,
-        mentions: [m.sender]
+        headerType: 4,
+        mentions: [m.sender],
+
+        contextInfo: {
+          externalAdReply: {
+            title: `${botName} Official Menu`,
+            body: `Sistema activo • ${totalCommands} comandos`,
+            thumbnailUrl: imageUrl,
+            mediaType: 1,
+            renderLargerThumbnail: true,
+            showAdAttribution: false
+          }
+        }
       },
       { quoted: m }
     )
