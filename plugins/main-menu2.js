@@ -67,7 +67,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ׅㅤ𓏸𓈒ㅤׄ *ʟɪʙʀᴇʀɪᴀ* :: ${global.libreria || 'Baileys Multi Device'} 
 
 
-📌 *Seleccionacciona una categoría:*`
+📌 *sᴇʟᴇᴄᴄɪᴏɴᴀ ᴜɴᴀ ᴄᴀᴛᴇɢᴏʀɪ́ᴀ:*`
 
     const buttons = [
       { 
