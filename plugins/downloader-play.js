@@ -62,12 +62,14 @@ const handler = async (m, { conn, args, usedPrefix, command }) => {
     if (!video) return conn.reply(m.chat, `😵 No encontré nada con: "${queryOrUrl}"`, m);
 
     const caption = `
-> 🌱 Descargando *<${video.title}>*
-
-> \`♡ Vistas\` » *${video.views.toLocaleString()}*
-> \`✰ Calidad\` » 130kbps
-> \`✧︎ Duración\` » *${video.timestamp}*
-> \`➪ Link\` » ${video.url}
+*⎯⎯ㅤㅤִㅤㅤ୨   ❀  ୧ㅤㅤִ   ㅤ⎯⎯*
+> 🌱 <${video.title}>
+   *⎯⎯ㅤㅤִㅤㅤ୨   ❒  ୧ㅤㅤִ   ㅤ⎯⎯*
+> ₊·( ❀ ) \`Duración »\` *${video.timestamp}*
+> ₊·( ꕥ ) \`Vistas »\` *${video.views.toLocaleString()}*
+> ₊·( ✥ ) \`Calidad »\` 130kbps
+> ₊·( ꕤ ) \`Enlace »\` ${video.url}
+   *⎯⎯ㅤㅤִㅤㅤ୨   ❒  ୧ㅤㅤִ   ㅤ⎯⎯*
 `;
 
     // IMPORTANTE: Los botones interactivos de WhatsApp Business API fallan en muchos mods/versiones.
