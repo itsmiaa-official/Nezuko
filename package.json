@@ -1,5 +1,5 @@
 {
-  "name": "Shylpha",
+  "name": "nagi bot",
   "version": "2.2.6",
   "description": "WhatsApp Bot Multi Device",
   "main": "index.js",
@@ -17,16 +17,16 @@
     "eslint": "eslint .",
     "eslintfix": "eslint --fix ."
   },
-  "homepage": "https://github.com/itsmiaa-official",
+  "homepage": "https://github.com/El-brayan502",
   "author": {
-    "name": "China"
+    "name": "Brayan330"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/itsmiaa-official/Sylpha.git"
+    "url": "git+https://github.com/El-brayan502/megumi-fushiguro-bot.git"
   },
   "bugs": {
-    "url": "https://github.com/itsmiaa-official/Sylpha/issues"
+    "url": "https://github.com/El-brayan502/megumi-fushiguro-bot/issues"
   },
   "license": "MIT-License",
   "dependencies": {
@@ -35,8 +35,6 @@
     "@vitalets/google-translate-api": "^8.0.0",
     "@whiskeysockets/baileys": "github:gatanina-li/baileys",
     "acrcloud": "^1.4.0",
-    "api-dylux": "^1.7.2",
-    "aptoide-scraper": "github:DIEGO-OFC/dv-aptoide-scraper",
     "awesome-phonenumber": "^3.4.0",
     "axios": "^1.1.2",
     "boxen": "^7.1.1",
