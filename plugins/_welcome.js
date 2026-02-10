@@ -72,7 +72,7 @@ END:VCARD`
 
          title: '',
     subtitle: '',
-    footer: `© ${botname} · ${author}`,
+    footer: `© ${botname} · Welcome`,
 
     interactiveButtons: [
       {
@@ -83,18 +83,6 @@ END:VCARD`
         })
       }
     ],
-
- /*  footer: `© ${botname} · Welcome`,
-
-        interactiveButtons: [
-          {
-            name: 'quick_reply',
-            buttonParamsJson: JSON.stringify({
-              display_text: 'Menu 🪴',
-              id: `${usedPrefix}menu`
-            })
-          }
-        ],*/
 
         mentions: [who]
       },
