@@ -53,7 +53,7 @@ END:VCARD`
         product: {
           productImage: { url: welcomeImg },
           productId: 'welcome-001',
-          title: `─ W E L C O M E ─🥷🏻`,
+          title: `─── W E L C O M E ─── 🌱`,
           currencyCode: 'USD',
           priceAmount1000: '0',
           retailerId: 1677,
@@ -76,8 +76,8 @@ END:VCARD`
           {
             name: 'quick_reply',
             buttonParamsJson: JSON.stringify({
-              display_text: '👤 Registrarme',
-              id: `${usedPrefix}reg user.19`
+              display_text: 'Menu 🪴',
+              id: `${usedPrefix}menu`
             })
           }
         ],
@@ -102,7 +102,7 @@ END:VCARD`
         product: {
           productImage: { url: goodbyeImg },
           productId: 'goodbye-001',
-          title: '─Ａ Ｄ Ｉ Ō S─👋🏻',
+          title: '───Ａ Ｄ Ｉ Ō S─── 🌱',
           currencyCode: 'USD',
           priceAmount1000: '0',
           retailerId: 1677,
@@ -123,8 +123,8 @@ END:VCARD`
           {
             name: 'quick_reply',
             buttonParamsJson: JSON.stringify({
-              display_text: '👤 Registrarme',
-              id: `${usedPrefix}reg user.19`
+              display_text: 'Menu 🪴',
+              id: `${usedPrefix}menu`
             })
           }
         ],
