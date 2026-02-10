@@ -17,7 +17,7 @@ export async function before(m, { conn, usedPrefix }) {
       participants: '0@s.whatsapp.net',
       remoteJid: 'status@broadcast',
       fromMe: false,
-      id: 'NagiBot'
+      id: 'Sylpha'
     },
     message: {
       contactMessage: {
@@ -72,7 +72,7 @@ END:VCARD`
 
          title: '',
     subtitle: '',
-    footer: `© ${botname} · Welcome`,
+    footer: `© ѕуℓρнα 🌱 · Welcome`,
 
     interactiveButtons: [
       {
@@ -121,7 +121,7 @@ END:VCARD`
 
           title: '',
     subtitle: '',
-    footer: `© ${botname} · ${author}`,
+    footer: `© ѕуℓρнα 🌱 · ${author}`,
 
     interactiveButtons: [
       {
