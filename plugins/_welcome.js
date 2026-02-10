@@ -70,7 +70,21 @@ END:VCARD`
 > Fecha: ${date}
 `.trim(),
 
-        footer: `© ${botname} · Welcome`,
+         title: '',
+    subtitle: '',
+    footer: `© ${botname} · ${author}`,
+
+    interactiveButtons: [
+      {
+        name: 'cta_url',
+        buttonParamsJson: JSON.stringify({
+          display_text: 'instagram',
+          url: 'https://www.instagram.com/its.chinitaaa_'
+        })
+      }
+    ],
+
+ /*  footer: `© ${botname} · Welcome`,
 
         interactiveButtons: [
           {
@@ -80,7 +94,7 @@ END:VCARD`
               id: `${usedPrefix}menu`
             })
           }
-        ],
+        ],*/
 
         mentions: [who]
       },
