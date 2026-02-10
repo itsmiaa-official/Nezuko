@@ -119,18 +119,19 @@ END:VCARD`
 *salió del grupo.*
 `.trim(),
 
-        footer: `© ${botname} · Goodbye`,
+          title: '',
+    subtitle: '',
+    footer: `© ${botname} · ${author}`,
 
-        interactiveButtons: [
-          {
-            name: 'quick_reply',
-            buttonParamsJson: JSON.stringify({
-              display_text: 'Menu 🪴',
-              id: `${usedPrefix}menu`
-            })
-          }
-        ],
-
+    interactiveButtons: [
+      {
+        name: 'cta_url',
+        buttonParamsJson: JSON.stringify({
+          display_text: 'instagram',
+          url: 'https://www.instagram.com/its.chinitaaa_'
+        })
+      }
+    ],
         mentions: [who]
       },
       { quoted: fkontak }
