@@ -72,7 +72,7 @@ END:VCARD`
 
          title: '',
     subtitle: '',
-    footer: `© ѕуℓρнα 🌱 · Welcome`,
+    footer: `© ѕуℓρнα 🌱 ·${author} · Welcome`,
 
     interactiveButtons: [
       {
@@ -121,7 +121,7 @@ END:VCARD`
 
           title: '',
     subtitle: '',
-    footer: `© ѕуℓρнα 🌱 · ${author}`,
+    footer: `© ѕуℓρнα 🌱 · ${author} · GoodBye`,
 
     interactiveButtons: [
       {
