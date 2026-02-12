@@ -114,9 +114,11 @@ END:VCARD`
         businessOwnerJid: '0@s.whatsapp.net',
 
         caption: `
+*Adiós del grupo*
+
 > Usuario: ${taguser}
+> Miembros totales: ${totalMembers}
 > Fecha: ${date}
-*salió del grupo.*
 `.trim(),
 
           title: '',
