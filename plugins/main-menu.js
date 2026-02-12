@@ -36,6 +36,9 @@ let handler = async (m, { conn, usedPrefix }) => {
 
 > \`•\` ${usedPrefix}play
 > \`•\` ${usedPrefix}tiktok
+> \`•\` ${usedPrefix}tt
+> \`•\` ${usedPrefix}pin
+> \`•\` ${usedPrefix}pinterest
 > \`•\` ${usedPrefix}ig
 > \`•\` ${usedPrefix}instagram 
 > \`•\` ${usedPrefix}fb
