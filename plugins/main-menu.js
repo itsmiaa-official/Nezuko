@@ -35,6 +35,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 > ## \`DOWNLOADER 🌱\`
 
 > \`•\` ${usedPrefix}play
+> \`•\` ${usedPrefix}tiktok
 > \`•\` ${usedPrefix}ig
 > \`•\` ${usedPrefix}instagram 
 > \`•\` ${usedPrefix}fb
