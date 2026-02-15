@@ -14,10 +14,10 @@ global.mods = []
 global.prems = []
 global.suittag = ['923297474483']
 
-global.botname = 'ѕуℓρнα 🌱'
+global.botname = '🅂ᥱᥒk᥆ 🄱᥆𝗍 🦊'
 global.vs = '2.2.6 (Beta)'
 global.author = '@its.chinitaaa_'
-global.sticker = '𝚂𝚝𝚒𝚌𝚔𝚎𝚛 𝚌𝚛𝚎𝚊𝚝𝚎𝚍 𝚋𝚢 ѕуℓρнα 🌱'
+global.sticker = 's𝗍іᥴkᥱr ᥴrᥱᥲ𝗍ᥱძ ᑲᥡ sᥱᥒk᥆'
 
 global.banner = 'https://files.catbox.moe/tsz005.jpg'
 global.icono = ''
