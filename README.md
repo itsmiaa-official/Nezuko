@@ -18,7 +18,7 @@
 
 ### **`📌 Click en la imagen para descargar termux`**
 <a
-href="https://www.mediafire.com/file/wkinzgpb0tdx5qh/com.termux_1022.apk/file"><img src="https://qu.ax/finc.jpg" height="125px"></a> 
+href="https://www.mediafire.com/file/wkinzgpb0tdx5qh/com.termux_1022.apk/file"><img src="https://files.catbox.moe/lt9rg5.jpg" height="125px"></a> 
 
 ### **` Instalación por termux`**
 <details>
