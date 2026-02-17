@@ -54,8 +54,8 @@ global.timestamp = { start: new Date() }
 global.opts = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse())
 global.prefix = new RegExp('^[#!./-]')
 
-console.log(chalk.magentaBright('\n𝙸𝚗𝚒𝚌𝚒𝚊𝚗𝚍𝚘 𝙴𝚜𝚙𝚎𝚛𝚎'))
-say('Sylpha', { font: 'block', align: 'left', gradient: ['green', 'white'] })
+console.log(chalk.magentaBright('\n ✰ 𝙸𝚗𝚒𝚌𝚒𝚊𝚗𝚍𝚘 𝙴𝚜𝚙𝚎𝚛𝚎'))
+say('Nezuko', { font: 'block', align: 'left', gradient: ['green', 'white'] })
 say('Created by @its.chinitaaa_', { font: 'console', align: 'center', colors: ['cyan', 'magenta', 'yellow'] })
 
 global.db = new Low(/https?:\/\//.test(global.opts['db'] || '') ? new cloudDBAdapter(global.opts['db']) : new JSONFile('database.json'))
