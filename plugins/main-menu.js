@@ -30,9 +30,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ׅㅤ𓏸𓈒ㅤׄ *ᴠᴇʀsɪᴏɴ ::* ${vs}
 ׅㅤ𓏸𓈒ㅤׄ *ᴜᴘᴛɪᴍᴇ ::* ${uptime}
 
-> https://sylpha-wabot.vercel.app
-
-> ## \`DOWNLOADER 🌱\`
+> ⸻ \`DOWNLOADER 🌷\`
 
 > \`•\` ${usedPrefix}play
 > \`•\` ${usedPrefix}tiktok
@@ -44,18 +42,18 @@ let handler = async (m, { conn, usedPrefix }) => {
 > \`•\` ${usedPrefix}fb
 > \`•\` ${usedPrefix}facebook 
 
-> ## \`INFO 🌱\`
+> ⸻ \`INFO 🌷\`
  
 > \`•\` ${usedPrefix}ping
 > \`•\` ${usedPrefix}menu
 
-> ## \`OWNER 🌱\`
+> ⸻ \`OWNER 🌷\`
 
 > \`•\` ${usedPrefix}update 
 > \`•\` ${usedPrefix}cleartmp 
 > \`•\` ${usedPrefix}detectar
 
-> ## \`GROUPS 🌱\`
+> ⸻ \`GROUPS 🌷\`
  
 > \`•\` ${usedPrefix}kick
 > \`•\` ${usedPrefix}link
@@ -65,7 +63,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 > \`•\` ${usedPrefix}open
 > \`•\` ${usedPrefix}close
 
-> \`TOOLS 🌱\`
+> ⸻ \`TOOLS 🌷\`
 
 > \`•\` ${usedPrefix}s
 > \`•\` ${usedPrefix}sticker
