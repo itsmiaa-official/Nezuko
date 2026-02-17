@@ -4,8 +4,8 @@ await m.react('🕒')
 const stickerData = await m.quoted.download()
 if (!stickerData) return await m.react('✖️'), m.reply('ꕥ No se pudo descargar el sticker.')
 const parts = text.split(/[\u2022|]/).map(p => p.trim())
-const nuevoPack = parts[0] || texto1
-const nuevoAutor = parts[1] || texto2
+const nuevoPack = parts[0] || global.sticker
+const nuevoAutor = parts[1] || global.dev
 const exif = await addExif(stickerData, nuevoPack, nuevoAutor)
 await conn.sendMessage(m.chat, { sticker: exif }, { quoted: m })
 await m.react('✅')
