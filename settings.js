@@ -14,10 +14,10 @@ global.mods = []
 global.prems = []
 global.suittag = ['923297474483']
 
-global.botname = '🅂ᥱᥒk᥆ 🄱᥆𝗍 🦊'
-global.vs = '0.5.0 (Beta)'
+global.botname = '𝐍ᥱzմk𑄝 🌷'
+global.vs = '1.0.0 (Lite)'
 global.author = '@its.chinitaaa_'
-global.sticker = 's𝗍іᥴkᥱr ᥴrᥱᥲ𝗍ᥱძ ᑲᥡ sᥱᥒk᥆'
+global.sticker = 's𝗍іᥴkᥱr ᥴrᥱᥲ𝗍ᥱძ ᑲᥡ 𝐍ᥱzմk𑄝 🌷'
 
 global.banner = 'https://files.catbox.moe/tsz005.jpg'
 global.icono = ''
@@ -30,12 +30,12 @@ global.multiplier = 60
 global.prefix = /^[./!#?]/
 
 global.channel = 'https://whatsapp.com/channel/0029Vb6BDQc0lwgsDN1GJ31i'
-global.md = 'https://github.com/itsmiaa-official/Sylpha'
+global.md = 'https://github.com/itsmiaa-official/Nezuko'
 global.ch = { id: '120363345778623279@newsletter' }
 
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => {
   unwatchFile(file)
-  console.log(chalk.cyanBright(`✨ [CONFIG] Se han actualizado los ajustes del bot`))
+  console.log(chalk.cyanBright(`✰ [CONFIG] Se han actualizado los ajustes del bot`))
   import(`${file}?update=${Date.now()}`)
 })
