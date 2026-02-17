@@ -84,3 +84,4 @@ handler.command = ['instagram', 'ig', 'igdl']
 handler.register = true
 
 export default handler
+
