@@ -7,7 +7,7 @@ let handler = m => m
 handler.all = async function (m, { conn }) {
 
     global.logo = 'https://files.catbox.moe/019yhe.png' 
-    global.iconorcanal = 'https://files.catbox.moe/3uzi5u.jpg'
+    global.iconorcanal = 'https://files.catbox.moe/mhqpn7.jpg'
 
     global.idcanal = "120363345778623279@newsletter" 
     global.nombrecanal = "𝐍ᥱzմk𑄝 𝐂һᥲᥒᥒᥱᥣ | ¡𝖭𝖾𝗐𝗌! 🌷"
