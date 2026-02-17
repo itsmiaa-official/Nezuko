@@ -49,3 +49,4 @@ handler.tags = ['downloader']
 handler.command = ['fb', 'facebook', 'fbdl']
 
 export default handler
+
