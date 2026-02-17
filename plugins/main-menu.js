@@ -67,7 +67,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 
 > \`•\` ${usedPrefix}s
 > \`•\` ${usedPrefix}sticker
->  \`•\` ${usedPrefix}wm
+> \`•\` ${usedPrefix}wm
 > \`•\` ${usedPrefix}toimg
 > \`•\` ${usedPrefix}inspect
 
