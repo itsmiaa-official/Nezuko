@@ -1,5 +1,5 @@
 > [!IMPORTANT]
-> **Este proyecto está en constante evolución. Estamos comprometidos en ofrecer a nuestra comunidad un Bot increíble. Te invitamos a instalarlo y para estar al tanto de todas las novedades.**
+> **Este proyecto está en constante evolución. Te invito a instalarlo y para estar al tanto de todas las novedades.**
 
 <p align="center"> 
 <img src="https://files.catbox.moe/tkmyjy.jpg" alt="Aiko-Bot" style="width: 75%; height: auto; max-width: 100px;">
