@@ -1,1 +1,1 @@
-. 
+Welcome to the official Nezuko repository
