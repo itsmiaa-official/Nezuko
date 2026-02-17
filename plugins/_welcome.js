@@ -65,14 +65,14 @@ END:VCARD`
         caption: `
 *Bienvenido/a al grupo*
 
-> Usuario: ${taguser}
-> Miembros totales: ${totalMembers}
-> Fecha: ${date}
+> \`Usuario:\` ${taguser}
+> \`Miembros totales:\` ${totalMembers}
+> \`Fecha:\` ${date}
 `.trim(),
 
          title: '',
     subtitle: '',
-    footer: `© ѕуℓρнα 🌱 ·${author} · Welcome`,
+    footer: `© 𝐍ᥱzմk𑄝 🌷 · ${author} · Welcome`,
 
     interactiveButtons: [
       {
@@ -104,7 +104,7 @@ END:VCARD`
         product: {
           productImage: { url: goodbyeImg },
           productId: 'goodbye-001',
-          title: '───Ａ Ｄ Ｉ Ō S─── 🌱',
+          title: '────ＡＤＩ Ō S───── 🌱',
           currencyCode: 'USD',
           priceAmount1000: '0',
           retailerId: 1677,
@@ -116,14 +116,14 @@ END:VCARD`
         caption: `
 *Adiós del grupo*
 
-> Usuario: ${taguser}
-> Miembros totales: ${totalMembers}
-> Fecha: ${date}
+> \`Usuario:\` ${taguser}
+> \`Miembros totales:\` ${totalMembers}
+> \`Fecha:\` ${date}
 `.trim(),
 
-          title: '',
+    title: '',
     subtitle: '',
-    footer: `© ѕуℓρнα 🌱 · ${author} · GoodBye`,
+    footer: `© 𝐍ᥱzմk𑄝 🌷 · ${author} · GoodBye`,
 
     interactiveButtons: [
       {
