@@ -57,5 +57,4 @@ npm start
 * Correo: [`Aquí`](itts.chinitaaa@gmail.com)
 </details>
 
----
 
