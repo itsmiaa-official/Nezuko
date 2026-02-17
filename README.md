@@ -32,7 +32,7 @@ termux-setup-storage
 apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 ```bash
-git clone https://github.com/ittschinitaaa/Aiko-Wa_Bot && cd Aiko-Wa_Bot
+git clone https://github.com/itsmiaa-official/Nezuko && cd Nezuko
 ```
 ```bash
 yarn install
@@ -46,51 +46,8 @@ npm start
 > *Si aparece **(Y/I/N/O/D/Z) [default=N] ?** use la letra **"y"** y luego **"ENTER"** para continuar con la instalación.*
 </details>
 
-<details>
-  <summary><b>🍄 Comandos para mantener más tiempo activo el Bot</b></summary>
-
-> *Ejecutar estos comandos dentro de la carpeta Aiko-Bot*
-```bash
-termux-wake-lock && npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs 
-``` 
-#### Opciones Disponibles
-> *Esto eliminará todo el historial que hayas establecido con PM2:*
-```bash 
-pm2 delete index
-``` 
-> *Si tienes cerrado Termux y quiere ver de nuevo la ejecución use:*
-```bash 
-pm2 logs 
-``` 
-> *Si desea detener la ejecución de Termux use:*
-```bash 
-pm2 stop index
-``` 
-> *Si desea iniciar de nuevo la ejecución de Termux use:*
-```bash 
-pm2 start index
-```
----- 
-### En caso de detenerse
-> _Si despues que ya instalastes el bot y termux te salta en blanco, se fue tu internet o reiniciaste tu celular, solo realizaras estos pasos:_
-```bash
-cd && cd Aiko-Wa_Bot && npm start
-```
-----
-### Obtener nuevo código QR 
-> *Detén el bot, haz click en el símbolo (ctrl) [default=z] usar la letra "z" + "ENTER" hasta que salga algo verdes similar a: `Aiko-Bot $`*
-> **Escribe los siguientes comandos uno x uno :**
-```bash 
-cd && cd Aiko-Wa_Bot && rm -rf sessions/Principal && npm run qr
-```
-----
-### Obtener nuevo código de teléfono 
-```bash 
-cd && cd Aiko-Wa_Bot && rm -rf sessions/Principal && npm run code
-```
-</details>
-
 ---
+
 ### **`🌷 Enlaces útiles`**
 
 <details>
