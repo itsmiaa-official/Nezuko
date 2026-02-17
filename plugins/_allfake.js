@@ -10,14 +10,14 @@ handler.all = async function (m, { conn }) {
     global.iconorcanal = 'https://files.catbox.moe/3uzi5u.jpg'
 
     global.idcanal = "120363345778623279@newsletter" 
-    global.nombrecanal = "ѕуℓρнα ¢нαηηєℓ | ¡𝖭𝖾𝗐𝗌! 🌱"
+    global.nombrecanal = "𝐍ᥱzմk𑄝 𝐂һᥲᥒᥒᥱᥣ | ¡𝖭𝖾𝗐𝗌! 🌷"
 
     global.rcanal = {
       contextInfo: {
         isForwarded: true,
         forwardedNewsletterMessageInfo: { newsletterJid: idcanal, serverMessageId: 100, newsletterName: nombrecanal },
         externalAdReply: {
-          title: '🌱 ѕуℓρнα • @its.chinitaaa_',
+          title: '𝐍ᥱzմk𑄝 🌷 • @its.chinitaaa_',
           thumbnailUrl: 'https://chat.whatsapp.com/KAhwtBdTOYlFsbsU8rwo79',
           thumbnail: await (await fetch(global.iconorcanal)).buffer(),
           mediaType: 1,
