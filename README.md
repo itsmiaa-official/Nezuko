@@ -12,16 +12,7 @@
 
 ## 🪻 Descripción 
 
-`Aiko-Bot` es un bot de WhatsApp multifuncional basado en `baileys`. Este bot ofrece una variedad de características para mejorar tu experiencia en WhatsApp.
-
----
-
-## 🪻 Características
-
-- Respuestas automáticas
-- Gestión de grupos
-- Juegos interactivos
-- Integración con APIs externas
+`Nezuko` es un bot de WhatsApp multifuncional basado en `baileys`. Este bot ofrece una variedad de características para mejorar tu experiencia en WhatsApp.
 
 ---
 
